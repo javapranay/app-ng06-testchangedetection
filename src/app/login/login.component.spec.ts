@@ -62,4 +62,7 @@ describe('LoginComponent', () => {
     expect(el.nativeElement.textContent.trim()).toBe('logout');
   });
 
+  it('dummy test spec', () => {
+    expect('abc'.length).toEqual(3);
+  });
 });
